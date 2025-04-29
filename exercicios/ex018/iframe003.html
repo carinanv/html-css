@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem quae incidunt aspernatur quidem, autem sequi beatae facere repellat ea, voluptatibus et eaque ratione aut? Alias aperiam autem veritatis eligendi.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Seguda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem voluptate, distinctio voluptatibus architecto sit quae esse rerum eaque quos neque quis nulla libero animi, blanditiis iusto commodi! Eligendi, est maiores?</p>
+
+    <iframe id="tela" 
+   name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis totam dolore earum omnis ea quisquam ipsa dignissimos quibusdam soluta velit porro saepe ducimus, repellat, voluptates praesentium. Ipsam doloremque aliquid voluptatibus?</p><img src='imagens/img1.jpg' width=200>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam molestiae porro ullam minima dignissimos? Quo, esse exercitationem deserunt sed nulla error laborum necessitatibus sint, architecto incidunt obcaecati. Ipsa, veniam nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt optio harum ea necessitatibus ipsam facere, aperiam in voluptate, velit atque dicta tenetur dolorem natus totam! Labore cupiditate beatae velit quasi!</p>
+</body>
+</html>
